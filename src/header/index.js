@@ -15,27 +15,27 @@ const Headermain = () => {
 
   return (
     <>
-      <header className="fixed-top site__header" >
-        <div className="d-flex align-items-center justify-content-between">
-          <Link  className="navbar-brand nav_ac" to="/">
+      <header className="fixed-top site__header"  >
+        <div className="d-flex align-items-center justify-content-between" > 
+          <Link  className="navbar-brand nav_ac" to="/" >
             {logotext}
           </Link>
-          <div className="d-flex align-items-center">
-          <Themetoggle />
-          <button className="menu__button  nav_ac" onClick={handleToggle} >
-            {!isActive ? <VscClose /> : <VscGrabber />}
-          </button>
+          <div className="d-flex align-items-center" style={{background:'grey'}}>
+            <Themetoggle />
+            <button className="menu__button  nav_ac" onClick={handleToggle} >
+              {!isActive ? <VscClose /> : <VscGrabber />}
+            </button>
           
           </div>
         </div>
 
-        <div className={`site__navigation ${!isActive ? "menu__opend" : ""}`} >
-          <div className="bg__menu h-100">
-            <div className="menu__wrapper">
-              <div className="menu__container p-3">
-                <ul className="the_menu">
-                  <li className="menu_item ">
-                  <Link  onClick={handleToggle} to="/" className="my-3">Home</Link>
+        <div className={`site__navigation ${!isActive ? "menu__opend" : ""}` } >
+          <div className="bg__menu h-100" >
+            <div className="menu__wrapper" >
+              <div className="menu__container p-3" >
+                <ul className="the_menu" >
+                  <li className="menu_item " >
+                  <Link  onClick={handleToggle} to="/" className="my-3" >Home</Link>
                   </li>
                   <li className="menu_item">
                     <Link  onClick={handleToggle} to="/portfolio" className="my-3"> Portfolio</Link>

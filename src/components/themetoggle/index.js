@@ -12,7 +12,7 @@ const Themetoggle = () => {
     localStorage.setItem('theme', theme ); 
   }, [theme]);
   return (
-    <div className="nav_ac" onClick={themetoggle} style={{"font-size":"50px"}}>
+    <div className="nav_ac" onClick={themetoggle} style={{scale: '2'}}>
       <WiMoonAltWaningCrescent4 />
     </div>
   );

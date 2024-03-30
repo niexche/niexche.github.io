@@ -3,17 +3,17 @@
 const logotext = "FEVZİ KILAS";
 const meta = {
     title: "Fevzi KILAS",
-    description: "I’m Fevzi KILAS senior computer science student at Hacettepe University _ Full stack devloper,currently living in Ankara",
+    description: "I'm Fevzi KILAS senior computer science student at Hacettepe University _ Full stack devloper,currently living in Ankara",
 };
 
 const introdata = {
-    title: "I’m Fevzi KILAS",
+    title: "I'm Fevzi KILAS",
     animated: {
-        first: "I love coding",
-        second: "I love working on cool stuff",
-        third: "I love sports",
+        first: "WELCOME TO MY WORLD",
+        second: "PLEASE TRY BROWSING THIS PAGE TO KNOW ME BETTER",
+        third: "AND DON'T FORGET THAT YOU CAN CONTACT ME ANYTIME!",
     },
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum",
+    description: "I am a 4th year Computer Scientist student. Who loves to work with data science, artificial intelligence and machine learning technologies. ",
     your_img_url: "",
 };
 
@@ -149,10 +149,9 @@ const contactConfig = {
 };
 
 const socialprofils = {
-    github: "https://github.com",
-    facebook: "https://facebook.com",
-    linkedin: "https://linkedin.com",
-    twitter: "https://twitter.com",
+    github: "https://github.com/niexche",
+    linkedin: "https://www.linkedin.com/in/fevzi-k%C4%B1las-6b857b19a/",
+    twitter: "https://twitter.com/iksapp",
 };
 export {
     meta,
