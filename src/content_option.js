@@ -10,142 +10,5506 @@ const introdata = {
     title: "I'm Fevzi KILAS",
     animated: {
         first: "WELCOME TO MY WORLD",
-        second: "PLEASE TRY BROWSING THIS PAGE TO KNOW ME BETTER",
+        second: "PLEASE TRY BROWSING THIS WEB PAGE TO KNOW ME BETTER",
         third: "AND DON'T FORGET THAT YOU CAN CONTACT ME ANYTIME!",
     },
     description: "I am a 4th year Computer Scientist student. Who loves to work with data science, artificial intelligence and machine learning technologies. ",
-    your_img_url: "",
+    your_img_url: "/",
 };
 
 const dataabout = {
-    title: "abit about my self",
+    title: "ABIT ABOUT MY SELF",
     aboutme: "",
 };
-const worktimeline = [{
-        jobtitle: "Designer of week",
-        where: "YAdfi",
-        date: "2020",
-    },
-    {
-        jobtitle: "Designer of week",
-        where: "Jamalya",
-        date: "2019",
-    },
-    {
-        jobtitle: "Designer of week",
-        where: "ALquds",
-        date: "2019",
-    },
-];
+
 
 const skills = [{
         name: "Python",
-        value: 100,
+        value: 90,
     },
+
     {
-        name: "Djano",
-        value: 55,
-    },
-    {
-        name: "Javascript",
+        name: "Java",
+        value: 85,
+    },{
+        name: "C",
         value: 80,
+    },{
+        name: "C++",
+        value: 80,
+    },{
+        name: "C#",
+        value: 80,
+    },{
+        name: "JS/CSS/HTML5",
+        value: 95,
+    },{
+        name: "DMBS: PostgreSql/SQLite/mongodb/MySql",
+        value: 90,
+    },{
+        name: "node.js",
+        value: 40,
+    },{
+        name: "ruby on rails",
+        value: 40,
     },
     {
         name: "React",
-        value: 60,
+        value: 80,
     },
     {
-        name: "Jquery",
-        value: 85,
+        name: "React NATIVE",
+        value: 65,
+    },{
+        name: "UNITY & UNREAL ENGINE 5",
+        value: 75,
     },
 ];
-
+const worktimeline = [{
+    jobtitle: "COMİNG SOON",
+    where: "",
+    date: "",
+},
+];
 const services = [{
         title: "UI & UX Design",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+        description: ".",
     },
     {
         title: "Mobile Apps",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+        description: ".",
     },
     {
-        title: "Wordpress Design",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+        title: "MACHINE LEARNING / AI ",
+        description: "Developing and integrating machine learning models into applications."
     },
 ];
 
 const dataportfolio = [{
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/800/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/600/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/300/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/700/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-
-    {
-        img: "https://picsum.photos/400/600/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/300/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/550/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/700/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},
+{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},
+{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},
+{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},
+{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},
+{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},
+{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},
+{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},
+{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},
+{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},
+{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},
+{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},
+{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},
+{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},
+{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},
+{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},
+{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},
+{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},
+{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},
+{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},
+{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},
+{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},
+{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},
+{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},
+{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},
+{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},
+{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},
+{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},
+{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},
+{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},
+{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},
+{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},
+{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},
+{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},
+{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},
+{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},
+{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},
+{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},
+{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},
+{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},
+{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},
+{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},
+{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},
+{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},
+{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},
+{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},
+{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},
+{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},
+{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},
+{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},
+{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},
+{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},
+{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},
+{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},
+{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},
+{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},
+{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},
+{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},
+{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},
+{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},
+{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},
+{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},
+{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},
+{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},
+{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},
+{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},
+{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},
+{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},
+{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},
+{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},
+{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},
+{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},
+{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},
+{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},
+{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},
+{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},
+{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},
+{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},
+{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},
+{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},
+{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},
+{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},
+{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},
+{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},
+{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},
+{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},
+{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},
+{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},
+{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},
+{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},
+{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},
+{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},
+{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},
+{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},
+{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},
+{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},
+{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},
+{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},
+{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},
+{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},
+{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},
+{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},
+{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},
+{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},
+{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},
+{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},
+{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},
+{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},
+{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},
+{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},
+{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},
+{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},
+{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},
+{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},
+{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},
+{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},
+{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},
+{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},
+{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},
+{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},
+{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},
+{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},
+{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},
+{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},
+{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},
+{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},
+{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},
+{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},
+{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},
+{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},
+{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},
+{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},
+{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},{
+    img: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHIzenRuYW81b3lieTg1dndsMHJlY2R1MWJybXVzcjRoZWxpNGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtB2l3jHiJsFa/giphy.gif",
+    description: "COMMİNG SOON",
+    link: "#",
+},
+    
 ];
 
 const contactConfig = {
     YOUR_EMAIL: "f.klas2000@gmail.com",
-    YOUR_FONE: "(543)347-3514",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vehicula eu nunc et sollicitudin. Cras pulvinar, nisi at imperdiet pharetra. ",
+    YOUR_FONE: "0(543)347-3514",
+    description: " YOU CAN USE MAIL AND PHONE NUMBER ABOVE OR YOU CAN EASYLY SEND A MAIL ON THIS SECTION --->",
     // creat an emailjs.com account 
     // check out this tutorial https://www.emailjs.com/docs/examples/reactjs/
-    YOUR_SERVICE_ID: "service_id",
-    YOUR_TEMPLATE_ID: "template_id",
-    YOUR_USER_ID: "user_id",
+    YOUR_SERVICE_ID: "service_t8r7bsr",
+    YOUR_TEMPLATE_ID: "template_2w8ry68",
+    YOUR_USER_ID: "cksqsHh91shxZ7S19",
 };
 
 const socialprofils = {
