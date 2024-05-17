@@ -18,8 +18,8 @@ const introdata = {
 };
 
 const dataabout = {
-    title: "ABIT ABOUT MY SELF",
-    aboutme: "",
+    title: "ABOUT MY SELF",
+    aboutme: "I am a fourth year student at Hacettepe University Computer Sciences. I am constantly trying to improve my understanding and explore innovative applications. I am particularly interested in Data Science and Computer Vision. I also love developing advanced Web and Mobile Applications. My passion also includes working on artificial intelligence-based projects, where I enjoy creating and developing solutions that will increase their functionality and performance. I also enjoy creating robust and secure database systems, using my skills to ensure data integrity and reliability. Beyond software development, I have a passion for designing intuitive user interfaces and experiences, as well as graphical applications such as games and 3D websites. Additionally, I excel at project management, expertly overseeing initiatives from conception to completion, effectively managing resources to achieve successful outcomes. At my core, I am driven by a commitment to excellence and a desire to overcome complex challenges in the ever-evolving technology landscape.",
 };
 
 
@@ -59,14 +59,14 @@ const skills = [{
     },
     {
         name: "React NATIVE",
-        value: 65,
+        value: 95,
     },{
         name: "UNITY & UNREAL ENGINE 5",
-        value: 75,
+        value: 60,
     },
 ];
 const worktimeline = [{
-    jobtitle: "COMİNG SOON",
+    jobtitle: "",
     where: "",
     date: "",
 },
