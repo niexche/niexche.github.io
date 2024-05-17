@@ -1,11 +1,15 @@
 .site__header {
-    top: 10px;
+    top: 15px;
     padding-left: 10px;
     padding-right: 10px;
 }
 
 .menu__button {
     color: var(--text-color);
+    
+    padding: 10px 15px; 
+    border: 2px solid black; 
+    border-radius: 15px; 
 }
 
 .menu__button:focus,
@@ -19,6 +23,7 @@
     height: 2em;
     fill: var(--text-color-2);
     color: var(--text-color-2);
+   
 }
 
 .nav_ac {
