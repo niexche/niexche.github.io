@@ -353,6 +353,119 @@ cv2.destroyAllWindows()
           <p>This script performs basic face detection using OpenCV's Haar Cascade classifier and displays the detected faces in real-time.</p>
         </Col>
       </Row>
+
+      <Row className="sec_sp">
+        <h2>Oracle Pl/Sql Works</h2>
+      </Row>
+      <Row className="sec_sp">
+        <Col>
+          <pre>
+            <code>
+              {`
+DECLARE 
+BEGIN 
+  dbms_output.put('Tek sayilar '); dbms_output.put_line('Cift sayilar');
+  FOR i IN 1..100 LOOP 
+    IF(mod(i, 2) = 1) THEN
+      dbms_output.put(i || '          '); 
+      dbms_output.put_line(i+1);
+    END IF;
+  END LOOP;
+  dbms_output.put_line('');
+END;
+/
+              `}
+            </code>
+            <code>
+              {`
+DECLARE
+BEGIN 
+  FOR i IN 1..100 LOOP 
+    IF(mod(i, 2) = 1) THEN
+      dbms_output.put_line(i||' tek'); 
+    ELSE
+      dbms_output.put_line(i||' cift');
+    END IF;
+  END LOOP;
+END;
+/
+              `}
+            </code>
+            <code>
+              {`
+DECLARE
+  i integer;
+BEGIN 
+  i  := '&x';
+  dbms_output.put_line('-------------------TEK SAYI CIFT SAYI PROGRAMI-------------------');
+  if(mod(i, 2) = 1) then
+    dbms_output.put_line('-->  ' || i || ' Tek sayidir');
+  else
+    dbms_output.put_line('-->  ' ||i|| ' Cift sayidir'); 
+  END if;
+END;
+/
+              `}
+            </code>
+            <code>
+              {`
+DECLARE
+  i varchar(256);
+  item VARCHAR2(255);
+  item1 VARCHAR2(255);
+  item2 VARCHAR2(255);
+  sonuc VARCHAR2(255);
+BEGIN 
+  i  := '&x';
+  dbms_output.put_line('-------------------CALCULATER-------------------');
+  dbms_output.put_line(i);
+  
+  IF (INSTR(i, '/', 1) <> 0) THEN
+    dbms_output.put_line('BOLME SONUCU: ');
+    item := INSTR(i, '/', 1);
+    item1 := to_number(SUBSTR(i, 0, to_number(item)-1));
+    item2 := to_number(SUBSTR(i, to_number(item)+1));
+    sonuc := (item1/item2);
+    dbms_output.put_line(sonuc);
+  ELSIF (INSTR(i, '*', 1) <> 0) THEN
+    dbms_output.put_line('CARPMA SONUCU: ');
+    item := INSTR(i, '*', 1);
+    item1 := to_number(SUBSTR(i, 0, to_number(item)-1));
+    item2 := to_number(SUBSTR(i, to_number(item)+1));
+    sonuc := (item1*item2);
+    dbms_output.put_line(sonuc);
+
+  ELSIF (INSTR(i, '+', 1) <> 0) THEN
+    dbms_output.put_line('TOPLAMA SONUCU: ');
+    item := INSTR(i, '+', 1);
+    item1 := to_number(SUBSTR(i, 0, to_number(item)-1));
+    item2 := to_number(SUBSTR(i, to_number(item)+1));
+    sonuc := (item1+item2);
+    dbms_output.put_line(sonuc);
+
+  ELSIF (INSTR(i, '-', 1) <> 0) THEN
+    dbms_output.put_line('CIKARTMA SONUCU: ');
+    item := INSTR(i, '-', 1);
+    item1 := to_number(SUBSTR(i, 0, to_number(item)-1));
+    item2 := to_number(SUBSTR(i, to_number(item)+1));
+    sonuc := (item1-item2);
+    dbms_output.put_line(sonuc);
+
+  END IF;
+END;
+/
+              `}
+            </code>
+          </pre>
+          <p>These are my works about Oracle PL/SQL. I hope you like it.</p>
+
+
+
+        </Col>
+      </Row>
+
+
+
     </Container>
   );
 };
