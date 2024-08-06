@@ -12,7 +12,7 @@ export const Rapor = () => {
           <hr className="t_border my-4 ml-0 text-left" />
         </Col>
       </Row>
-      <iframe title="tool" width="100%" height="700" src="https://app.powerbi.com/reportEmbed?reportId=080a0e65-312b-40ee-84de-4b652d47453c&autoAuth=true" frameborder="0" allowFullScreen="true"></iframe>
+      <iframe title="tool" width="100%" height="700" src="https://app.powerbi.com/reportEmbed?reportId=75a51d00-91ce-44f5-b8bf-84625655d2c4&autoAuth=true" frameborder="0" allowFullScreen="true"></iframe>
         <Col lg="8">
           <br/><br/><br/><br/><br/><br/><br/><br/>
           
