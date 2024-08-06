@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./style.css";
-import { BsXSquareFill, BsSlashSquareFill  } from "react-icons/bs";
+import { BsXSquareFill, BsXSquare} from "react-icons/bs";
 
 import { Link } from "react-router-dom";
 import { logotext ,socialprofils } from "../content_option";
@@ -25,7 +25,7 @@ const Headermain = () => {
 
             <Themetoggle />
             <button className="menu__button  nav_ac" onClick={handleToggle} >
-              {!isActive ? <BsXSquareFill /> : <BsSlashSquareFill />}
+              {!isActive ? <BsXSquareFill /> : <BsXSquare  />}
             </button>
           
           </div>
@@ -41,6 +41,9 @@ const Headermain = () => {
                   </li>
                   <li className="menu_item">
                     <Link  onClick={handleToggle} to="/portfolio" className="my-3"> Portfolio</Link>
+                  </li>
+                  <li className="menu_item">
+                  <Link onClick={handleToggle} to="/report" className="my-3"> Reports</Link>
                   </li>
                   <li className="menu_item">
                   <Link onClick={handleToggle} to="/about" className="my-3">About</Link>
