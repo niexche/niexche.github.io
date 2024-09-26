@@ -3,7 +3,7 @@
 const logotext = "FEVZİ KILAS";
 const meta = {
     title: "Fevzi KILAS",
-    description: "I'm Fevzi KILAS senior computer science student at Hacettepe University _ Full stack devloper,currently living in Ankara",
+    description: "I'm Fevzi KILAS senior computer science student at Hacettepe University / Full stack devloper,currently living in Ankara",
 };
 
 const introdata = {
