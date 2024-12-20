@@ -1,4 +1,5 @@
 .contact__form .form-control {
+    font-size: small;
     padding: 1.375rem .75rem;
     line-height: 1.5;
     color: var(--text-color);

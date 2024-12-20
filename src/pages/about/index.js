@@ -13,7 +13,7 @@ import {
 export const About = () => {
   return (
     <HelmetProvider>
-      <Container className="About-header">
+      <Container className="About-header" style={{ padding: "70px 100px 100px 100px" }}>
         <Helmet>
           <meta charSet="utf-8" />
           <title> About | {meta.title}</title>
@@ -21,7 +21,7 @@ export const About = () => {
         </Helmet>
         <Row className="mb-5 mt-3 pt-md-3">
           <Col lg="8">
-            <h1 className="display-4 mb-4">About me</h1>
+            <h4 className="display-9 mb-4">About me</h4>
             <hr className="t_border my-4 ml-0 text-left" />
           </Col>
         </Row>
@@ -31,7 +31,7 @@ export const About = () => {
           </Col>
           <Col lg="7" className="d-flex align-items-center">
             <div>
-              <p>{dataabout.aboutme}</p>
+              <p style={{fontSize: 14}}>{dataabout.aboutme}</p>
             </div>
           </Col>
         </Row>

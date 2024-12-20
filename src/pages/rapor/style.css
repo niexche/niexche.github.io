@@ -12,7 +12,7 @@
 }
 
 .progress-title {
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 700;
     margin: 15px 0 20px;
     font-family: 'Raleway';
@@ -39,7 +39,7 @@
     position: absolute;
     top: -30px;
     right: 8px;
-    font-size: 17px;
+    font-size: 15px;
     font-weight: bold;
     font-style: italic;
     color: var(--text-color);
@@ -58,7 +58,7 @@
 }
 
 .section-title {
-    font-size: 45px;
+    font-size: 35px;
 }
 
 .service__title {

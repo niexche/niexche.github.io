@@ -3,17 +3,17 @@
 const logotext = "FEVZİ KILAS";
 const meta = {
     title: "Fevzi KILAS",
-    description: "I'm Fevzi KILAS senior computer science student at Hacettepe University / Full stack devloper,currently living in Ankara",
+    description: "I'm Fevzi KILAS and I'm a Junior Data Scientist and Machine Learning Engineer."
 };
 
 const introdata = {
     title: "I'm Fevzi KILAS",
     animated: {
         first: "WELCOME TO MY WORLD",
-        second: "PLEASE TRY BROWSING THIS WEB PAGE TO KNOW ME BETTER",
+        second: "YOU CAN FIND MY WORKS AND PROJECTS",
         third: "AND DON'T FORGET THAT YOU CAN CONTACT ME ANYTIME!",
     },
-    description: "I am a 4th year Computer Scientist student. Who loves to work with data science, artificial intelligence and machine learning technologies. ",
+    description: "I work as a Junior Data Scientist and Machine Learning Engineer.  Who loves to create interactive and immersive experiences. I’m just starting my journey, and I’m excited to grow and learn more every day!  😊.",
     your_img_url: "/",
 };
 
@@ -26,9 +26,7 @@ const dataabout = {
 const skills = [{
         name: "Python",
         value: 90,
-    },
-
-    {
+    },{
         name: "Java",
         value: 85,
     },{
@@ -73,14 +71,14 @@ const worktimeline = [{
 ];
 const services = [{
         title: "UI & UX Design",
-        description: ".",
+        description: "-_-",
     },
     {
         title: "Mobile Apps",
-        description: ".",
+        description: "-_-",
     },
     {
-        title: "MACHINE LEARNING / AI ",
+        title: "MACHINE LEARNING ",
         description: "Developing and integrating machine learning models into applications."
     },
 ];
@@ -95,10 +93,8 @@ const dataportfolio = [{
 
 const contactConfig = {
     YOUR_EMAIL: "f.klas2000@gmail.com",
-    YOUR_FONE: "***********",
+    YOUR_FONE: "-",
     description: " YOU CAN USE MAIL ABOVE OR YOU CAN ALSO EASYLY SEND A MAIL ON THIS SECTION --->",
-    // creat an emailjs.com account 
-    // check out this tutorial https://www.emailjs.com/docs/examples/reactjs/
     YOUR_SERVICE_ID: "service_t8r7bsr",
     YOUR_TEMPLATE_ID: "template_2w8ry68",
     YOUR_USER_ID: "cksqsHh91shxZ7S19",
@@ -108,6 +104,7 @@ const socialprofils = {
     github: "https://github.com/niexche",
     linkedin: "https://www.linkedin.com/in/fevzi-k%C4%B1las-6b857b19a/",
     twitter: "https://twitter.com/iksapp",
+    hf: "https://huggingface.co/NIEXCHE"
 };
 export {
     meta,

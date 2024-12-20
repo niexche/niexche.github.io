@@ -16,6 +16,7 @@ section {
 }
 
 .btn-portfolio {
+
     background: var(--primary-color);
     border-radius: 0;
 }
@@ -81,25 +82,32 @@ section {
 }
 
 .intro_sec .text h1 {
-    font-size: 30px;
-    margin-bottom: 50px;
+    font-size: 20px;
+    margin-bottom: 5px;
+    font-weight: 700;
+}
+.intro_sec .text h2 {
+    font-size: 40px;
     font-weight: 700;
 }
 
 .intro_sec .text h3 {
-    font-size: 16px;
+    font-size: 11px;
     font-weight: 700;
 }
-
+.intro_sec .text p {
+    font-size: 14px;
+}
 .intro_sec .h_bg-image {
     background-size: cover;
     background-position: center;
-    min-height: 700px;
+    min-height: 70px;
+    max-height: 680px;
     position: relative;
 }
 
 .ac_btn {
-    padding: 4px 19px;
+    padding: 4px 8px;
     color: var(--secondary-color);
     position: relative;
     border: var(--secondary-color) 2px solid;
@@ -108,6 +116,7 @@ section {
     cursor: pointer;
     border-radius: 0;
     margin-right: 20px;
+
 }
 
 .ac_btn a {
@@ -209,7 +218,7 @@ section {
 }
 
 .intro_sec .h_bg-image .block .wrap-icon {
-    font-size: 40px;
+    font-size: 20px;
     color: var(--text-color);
     margin-bottom: 10px;
     display: block;

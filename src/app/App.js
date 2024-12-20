@@ -24,7 +24,7 @@ export default function App() {
     <Router basename={process.env.PUBLIC_URL}>
       <div className="cursor__dot">
         <AnimatedCursor
-          innerSize={15}
+          innerSize={10}
           outerSize={15}
           color="0, 0 ,0"
           outerAlpha={0.4}

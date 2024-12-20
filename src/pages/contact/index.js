@@ -66,7 +66,7 @@ export const ContactUs = () => {
 
   return (
     <HelmetProvider>
-      <Container>
+      <Container style={{padding: " 2rem 2rem 2rem"}}> 
         <Helmet>
           <meta charSet="utf-8" />
           <title>{meta.title} | Contact</title>
@@ -74,7 +74,7 @@ export const ContactUs = () => {
         </Helmet>
         <Row className="mb-5 mt-3 pt-md-3">
           <Col lg="8">
-            <h1 className="display-4 mb-4">Contact Me</h1>
+            <h3 className="display-9 mb-4">Contact Me</h3>
             <hr className="t_border my-4 ml-0 text-left" />
           </Col>
         </Row>
@@ -93,8 +93,8 @@ export const ContactUs = () => {
             </Alert>
           </Col>
           <Col lg="5" className="mb-5">
-            <h3 className="color_sec py-4">Get in touch</h3>
-            <address>
+            <h4 className="color_sec py-4">Get in touch</h4>
+            <address style={{ fontSize: "0.8rem" }}>
               <strong>Email:</strong>{" "}
               <a href={`mailto:${contactConfig.YOUR_EMAIL}`}>
                 {contactConfig.YOUR_EMAIL}
@@ -109,7 +109,7 @@ export const ContactUs = () => {
                 ""
               )}
             </address>
-            <p>{contactConfig.description}</p>
+            < p style={{ fontSize: "0.8rem" }}>{contactConfig.description}</p>
           </Col>
           <Col lg="7" className="d-flex align-items-center">
             <form onSubmit={handleSubmit} className="contact__form w-100">
@@ -150,9 +150,9 @@ export const ContactUs = () => {
                 required
               ></textarea>
               <br />
-              <Row>
+              <Row style={{paddingBottom: "10rem"}}>
                 <Col lg="12" className="form-group">
-                  <button className="btn ac_btn" type="submit">
+                  <button className="btn ac_btn" type="submit" style={{ fontSize: "0.8rem"}}>
                     {formData.loading ? "Sending..." : "Send"}
                   </button>
                 </Col>

@@ -38,6 +38,7 @@ export const Home = () => {
                   />
                 </h1>
                 <p className="mb-1x">{introdata.description}</p>
+                
                 <div className="intro_btn-action pb-5" style={{width: 800}}>
                   <Link to="/projects" className="text_2">
                     <div id="button_h" className="ac_btn btn ">

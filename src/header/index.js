@@ -17,14 +17,14 @@ const Headermain = () => {
   return (
     <>
       <header className="fixed-top site__header"  >
-        <div className="d-flex align-items-center justify-content-between" > 
+        <div className="d-flex align-items-center justify-content-between" style={{}}> 
           <Link  className="navbar-brand nav_ac" to="/" style={{fontSize:30, paddingLeft:20}}>
             {logotext}
           </Link>
           <div className="d-flex align-items-center" style={{paddingTop:10, paddingRight:10}}>
 
-            <Themetoggle />
-            <button className="menu__button  nav_ac" onClick={handleToggle} >
+            <Themetoggle/>
+            <button className="menu__button  nav_ac" onClick={handleToggle} style={{fontSize:20, paddingLeft:20}}>
               {!isActive ? <BsXSquareFill /> : <BsXSquare  />}
             </button>
           
@@ -37,13 +37,13 @@ const Headermain = () => {
               <div className="menu__container p-3" >
                 <ul className="the_menu" >
                   <li className="menu_item " >
-                  <Link  onClick={handleToggle} to="/" className="my-3" >Home</Link>
+                  <Link  onClick={handleToggle} to="/" className="my-1" >Home</Link>
                   </li>
                   <li className="menu_item">
                     <Link  onClick={handleToggle} to="/portfolio" className="my-3"> Portfolio</Link>
                   </li>
                   <li className="menu_item">
-                  <Link onClick={handleToggle} to="/report" className="my-3"> Reports</Link>
+                  <Link onClick={handleToggle} to="/rapor" className="my-3"> Reports</Link>
                   </li>
                   <li className="menu_item">
                   <Link onClick={handleToggle} to="/about" className="my-3">About</Link>

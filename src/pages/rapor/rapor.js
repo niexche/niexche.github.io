@@ -8,7 +8,7 @@ export const Rapor = () => {
     <Container className="About-header">
       <Row className="mb-5 mt-3 pt-md-3">
         <Col lg="8">
-          <h1 className="display-4 mb-4">Example PowerBi Report </h1>
+          <h1 className="display-4 mb-4" style={{fontSize:40}}>Example PowerBi Report </h1>
           <hr className="t_border my-4 ml-0 text-left" />
         </Col>
       </Row>
@@ -16,17 +16,17 @@ export const Rapor = () => {
         
       <Row className="mb-5 mt-3 pt-md-3">
         <Col lg="12">
-          <h3>Bu raporda eskiden yapmış olduğum ExLibris isimli Online kütüphane sisteminin örnek raporları yer almaktadır. Ayrıca sistemin detaylarını ve source kodunu aşşağıya bırakıyorum.</h3>
-          <h3 style={{ textAlign: 'center', fontSize: 50, }}>ER Diagram</h3>
-          <img height="%100" width="1080" src="..\images\er_diagram.jpg" alt="My Image" />
+          <h3 style={{fontSize:20}}>Bu raporda eskiden yapmış olduğum ExLibris isimli Online kütüphane sisteminin örnek raporları yer almaktadır. Ayrıca sistemin detaylarını ve source kodunu aşşağıya bırakıyorum.</h3>
+          <h3 style={{ textAlign: 'center', fontSize: 40, }}>ER Diagram</h3>
+          <img height="%50" width="1080" src="..\images\er_diagram.jpg" alt="My Image" />
           <hr/>
-          <h1 style={{ fontSize: '2.5rem', marginBottom: '1rem' }}>Exlibris Library Automation System</h1>
-      <h4 style={{ fontSize: '2rem', marginBottom: '0.5rem' }}>Description:</h4>
-      <p style={{ fontSize: '1.25rem', lineHeight: '1.6' }}>
+          <h1 style={{ fontSize: 40, marginBottom: '1rem' }}>Exlibris Library Automation System</h1>
+      <h4 style={{ fontSize: 25, marginBottom: '0.5rem' }}>Description:</h4>
+      <p style={{ fontSize: 15, lineHeight: '1.6' }}>
         Exlibris is set to revolutionize library management with a cutting-edge online automation system designed to streamline the administration and access of library resources. This innovative web-based platform will provide a seamless and intuitive experience for both library staff and users, combining advanced technology with user-centric design to enhance operational efficiency and resource accessibility.
       </p>
-      <h4 style={{ fontSize: '2rem', margin: '1rem 0 0.5rem' }}>Features:</h4>
-      <p style={{ fontSize: '1.25rem', lineHeight: '1.6' }}>
+      <h4 style={{ fontSize: 25, margin: '1rem 0 0.5rem' }}>Features:</h4>
+      <p style={{ fontSize: 15, lineHeight: '1.6' }}>
         <strong>Advanced Catalog Management:</strong><br /><br />
         <strong>Resource Handling:</strong> Effortlessly manage a diverse range of library materials such as books, journals, articles, multimedia, and digital resources.<br /><br />
         <strong>Record Operations:</strong> Seamlessly add, update, and delete catalog entries. Customize and enrich records with detailed metadata, tags, and classifications.<br /><br />

@@ -90,8 +90,8 @@ function useEventListener(eventName, handler, element = document) {
 function CursorCore({
     outerStyle,
     innerStyle,
-    color = '220, 90, 90',
-    outerAlpha = 0.3,
+    color = '195, 177, 225',
+    outerAlpha = 0.1,
     innerSize = 8,
     outerSize = 8,
     outerScale = 6,
@@ -183,10 +183,10 @@ function CursorCore({
     useEffect(() => {
       if (isActiveClickable) {
         cursorInnerRef.current.style.transform = `translate(-50%, -50%) scale(${
-          innerScale * 1.2
+          innerScale * 1.01
         })`
         cursorOuterRef.current.style.transform = `translate(-50%, -50%) scale(${
-          outerScale * 1.4
+          outerScale * 1.02
         })`
       }
     }, [innerScale, outerScale, isActiveClickable])
